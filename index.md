@@ -16,7 +16,7 @@ The problem with this (all-in) technique is when the sell price you set is not r
 
 ### Ladder trading
 
-In this technique, instead of selling all of the BTC at $10,000. You can divide it and sell it on different price levels or the ladder. So for our previous example, let's say you decide to sell in 4 equal amount (0.25) 
+In this technique, instead of selling all of the BTC at $10,000. You can divide it and sell it on different price levels or the ladder. That way you still gain even if the price didn't reach $10,000. So for our previous example, let's say you decide to sell in 4 equal amount (0.25) 
 
 | Sell Price    | Quantity      | Gain  |
 | ------------: |--------------:| -----:|
@@ -25,13 +25,33 @@ In this technique, instead of selling all of the BTC at $10,000. You can divide 
 | $9,500        | 0.25          | $375  |
 | $10,000       | 0.25          | $500  |
 
-So instead of gaining $2,000, with ladder trading, you only gained $1,250. However, if the price only reached $9,000 you still gain $375 with ladder trading while you gain nothing with the all-in approach. 
+The downside of ladder selling technique is you gain less. Instead of gaining $2,000 you only gained $1,250 with ladder trading. 
 
 The problem with ladder technique is if upon buying the price went down. You need to wait again for the price to go up before you can trade. 
 
 ### Grid trading
 
-Grid trading like ladder trading but instead of buying. 
+Grid trading have the same concept as ladder selling method. Instead of just having a sell order, you also have a buy order. So if the price went down below $8,000 you can still trade and make profit.
+
+So for our previous example (current BTC price is at $8,000) we can put 2 buy orders and 2 sell orders. 
+
+|Order Type    | Sell Price    | Quantity      | Gain  | Investment |
+|:-------------| ------------: |--------------:| -----:|-----------:|
+|BUY           | $7,000        | 0.25          | N/A   | $1,750     |
+|BUY           | $7,500        | 0.25          | N/A   | $1,875     |
+|SELL          | $8,500        | 0.25          | $125  | $2,000     |
+|SELL          | $9,000        | 0.25          | $250  | $2,000     |
+
+Now if BTC price went down to $7,500, the buy order will be filled and it will be placed as a sell order at $8,000 (with gain of $125).
+
+|Order Type    | Sell Price    | Quantity      | Gain  | Investment |
+|:-------------| ------------: |--------------:| -----:|-----------:|
+|BUY           | $7,000        | 0.25          | N/A   | $1,750     |
+|SELL          | $8,000        | 0.25          | **$125** | $1,875     |
+|SELL          | $8,500        | 0.25          | $125  | $2,000     |
+|SELL          | $9,000        | 0.25          | $250  | $2,000     |
+
+Instead of spending $8,000 to buy BTC you will only spend $4,000 to buy 0.5 BTC. Total investment is also smaller with grid trading at $7,625 only instead of $8,000.
 
 ### Bot trading
 
