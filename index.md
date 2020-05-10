@@ -1,6 +1,6 @@
 ## Welcome to bot grid trading
 
-I started this guide as personal reference and for my wife whom I have been trying to teach the art of grid trading. I have been trading and hodling crypto currency since 2017 but only tried bot grid trading in 2020. What I liked about it is 
+I started this guide as personal reference and for my wife whom I have been trying to teach the art of grid trading. I have been trading and hodling crypto currency since 2017 but only tried bot grid trading in 2020.
 
 All the content here are from my personal experience doing bot grid trading and should not be taken as a financial advice. Use your own due diligence when using the content here. Your money, your responsibility. 
 
@@ -56,7 +56,7 @@ Grid trading like ladder trading but instead of buying.
 - Trading Fee
 - Minimum grid investment
 - Goal Setting, $1 gain per tick
- 
+
  ## Other topics
 - Review Exchanges for Bot Trading
 - Review App that supports Bot Trading
