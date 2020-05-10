@@ -42,14 +42,14 @@ So for our previous example (current BTC price is at $8,000) we can put 2 buy or
 |SELL          | $8,500        | 0.25          | $125  | $2,000     |
 |SELL          | $9,000        | 0.25          | $250  | $2,000     |
 
-Now if BTC price went down to $7,500, the buy order will be filled and it will be placed as a sell order at $8,000 (with gain of $125).
+Now if BTC price went down to $7,500, the buy order will be filled and it will be placed as a sell order at $8,000 (with gain of $125 ig).
 
-|Order Type    | Sell Price    | Quantity      | Gain  | Investment |
-|:-------------| ------------: |--------------:| -----:|-----------:|
-|BUY           | $7,000        | 0.25          | N/A   | $1,750     |
-|SELL          | $8,000        | 0.25          | **$125** | $1,875     |
-|SELL          | $8,500        | 0.25          | $125  | $2,000     |
-|SELL          | $9,000        | 0.25          | $250  | $2,000     |
+|Order Type    | Sell Price    | Quantity      | Gain     | Investment |
+|:-------------| ------------: |--------------:| -----:   |-----------:|
+|BUY           | $7,000        | 0.25          | N/A      | $1,750     |
+|**SELL**      | $8,000        | 0.25          | **$125** | $1,875     |
+|SELL          | $8,500        | 0.25          | $125     | $2,000     |
+|SELL          | $9,000        | 0.25          | $250     | $2,000     |
 
 Instead of spending $8,000 to buy BTC you will only spend $4,000 to buy 0.5 BTC. Total investment is also smaller with grid trading at $7,625 only instead of $8,000.
 
